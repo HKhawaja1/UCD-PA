@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+}
+
+.banner {
+    background-color: white;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondbanner {
+    background-image: url('assets/Golf_1.jpg');
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    float: right;
+    margin-right: 700px;
+    margin-top: 50px;
+}
+
+#myLogo {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+.myNav {
+    text-decoration: none;
+    color: black;
+}
+
+.myNav:hover {
+    color: green;
+}
+
+#myContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
